@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fo6e6a7376c4.MainActivity">
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="100"
+        android:title="Favorite"
+        android:icon="@drawable/hearticon"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="Favorite"
+        android:icon="@drawable/addicon"
+        app:showAsAction="always" />
+</menu>
